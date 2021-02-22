@@ -199,7 +199,6 @@
 /*************  LATEST PROJECTS *************/
 .latest-projects{
     height: 474px;
-    overflow: hidden;
     background-image: url('./assets/img/lates-projects/bg.png');
     background-repeat: no-repeat;
     background-position: center;
@@ -233,9 +232,11 @@
     transition: all 0.3s ease-out;
 }
 
+/************* MEET TEAM *************/
 .meet-team{
     width: 1204px;
     height: 730px;
+    transform: translateY(200px);
 }
 
 .text-meet-team{
@@ -244,5 +245,66 @@
     line-height: 4.02rem;
     letter-spacing: 10px;
 }
-/************* CUSTOMS SOLUTIONS *************/  
 
+/************* CUSTOMS SOLUTIONS *************/  
+/************* FOOTER *************/ 
+.custom-solution{
+    z-index: 1;
+    transform: translateY(400px);
+}
+
+.link-list{
+    width: 173px;
+    height: 262px;
+}
+
+
+.link-list a{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+    line-height: 250%;
+    color:rgb(194, 194, 194);
+}
+
+.actived{
+    color: black;
+}
+
+.link-list span{
+    color: #38AF43;
+}
+
+.center-container{
+    width: 947px;
+    height: 435px;
+
+}
+
+.install-theme{
+    border-top: 4px solid #38AF43;
+    width: 259px;
+    height: 100%;
+    background: #ffffff;
+    border-bottom-left-radius: 5px;
+
+}
+
+.install-theme h3 {
+    text-align: center;
+}
+
+.ft-img{
+    background: #E5E5E5;
+}
+
+.bottom h4 {
+    font-size:1.6rem ;
+}
+
+.bg{
+    height: 480px;
+    background: #38394F;
+}

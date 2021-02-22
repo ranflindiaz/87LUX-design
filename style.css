@@ -2,6 +2,8 @@
     font-family:"league-gothic-regular";
     src:url("./assets/fonts/league-gothic.regular.ttf") format("woff");
 }
+/************* Variables *************/
+
 
 /************* Navbar *************/
 
@@ -27,7 +29,7 @@
 
 .jumbo h1 {
     font-family: league-gothic-regular, 'sans-seri';
-    font-size: 60px;
+    font-size: 3.75rem;
 }
 
 .jumbo p {
@@ -67,9 +69,8 @@
     font-family: Open Sans;
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 18px;
     line-height: 19px;
-    color: #B9BEC7;
 }
 
 /*************BG-Shapes *************/
@@ -231,3 +232,17 @@
     color: #ffffff;
     transition: all 0.3s ease-out;
 }
+
+.meet-team{
+    width: 1204px;
+    height: 730px;
+}
+
+.text-meet-team{
+    font-size: 3rem;
+    font-style: normal;
+    line-height: 4.02rem;
+    letter-spacing: 10px;
+}
+/************* CUSTOMS SOLUTIONS *************/  
+
